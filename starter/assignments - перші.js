@@ -99,7 +99,7 @@ console.log(`Portugal is in Europe, and is 11 million people speak portuguese`);
 */
 
 
-// lesson 18. Taking Decisions: if / else Statements 
+// lesson 18. Taking Decisions: if / else Statements
 
 /*
 const population = 130;
@@ -109,7 +109,7 @@ if (33 > population) {
 */
 
 
-//                                              Coding Challenge #2 
+//                                              Coding Challenge #2
 /*
 const massMark1 = 78;
 const heightMark1 = 1.69;
@@ -317,3 +317,5 @@ total = bill + tip;
 console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${total}`);
     
 */
+
+let a = 0;
