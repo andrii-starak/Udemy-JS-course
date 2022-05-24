@@ -21,4 +21,25 @@ const ageJonas = now - 1991;
 const ageSarah = now - 2018;
 
 console.log(now - 1991 > now - 2018);
+// -----------------------------
+const age = 15;
+if (age >= 18) {
+    console.log('Sarah can start drivinglicense 🚗')
+} else {
+    const yearLeft = 18 - age;
+    console.log(`Sarah is too young. Wait another ${yearLeft} years🚗`)
+};
+
+
+const hasDLicense = true;
+const hasGVision = false;
+console.log(hasDLicense && hasGVision);
+console.log(hasDLicense || hasGVision);
+
+const shouldDrive = hasDLicense && hasGVision;
+if (hasDLicense && hasGVision) {
+    console.log('Sarah able to drive!');
+} else {
+    console.log('Somebody else should drive...');    
+}
 */
