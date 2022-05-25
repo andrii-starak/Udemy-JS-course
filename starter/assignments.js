@@ -205,4 +205,17 @@ if (language === 'english' && population < 50 && isIsland === false) {
     else {
     console.log(`${country} does not meet your criteria`);
 }
+// -------------------------------------------------------------
+
+
+// coding challenge
+
+const bill = 275;
+// const bill = 40;
+// const bill = 430;
+
+const tip = (50 <= bill && bill <= 300) ? bill * 0.15 : bill * 0.2;
+
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
+
 // */
