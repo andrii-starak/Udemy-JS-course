@@ -112,6 +112,7 @@ console.log(`Mark's BMI ${markBMI} is higher than John's ${johnBMI}!`);
 console.log(`John's BMI ${johnBMI} is higher than Mark's ${markBMI}`);
         }
 
+// -----------------------------------------------
 let numNeighbours =Number( prompt('How many neighbour countries does your country have?'));
 
 if (numNeighbours == 1) {
@@ -130,7 +131,7 @@ else if (numNeighbours > 1) {
 }
 else { console.log("No borders") };
 // -----------------------------------------------
-// */
+
 // const sDolphins1 = 96;
 // const sDolphins2 = 108;
 // const sDolphins3 = 89;
@@ -158,3 +159,50 @@ if (averageDolphins > averageKoalas && averageDolphins >= 100) {
     console.log("Its a draw");
 } else console.log("Nobody wins");
 
+// -------------------------------------------------------------
+let language = prompt("Which language do you speak?");
+
+
+switch (language) {
+    case 'chinese' || 'mandarin':
+        console.log('MOST number of native speakers!');
+        break;
+    case 'spanish':
+        console.log('2nd place in number of native speakers');
+        break;
+    case 'english':
+        console.log('3rd place');
+        break;
+    case 'hindi':
+        console.log('Number 4');
+        break;
+    case 'arabic':
+        console.log('5th most spoken language');
+        break;
+    default:
+        console.log('Great language too :D');
+}
+// -------------------------------------------------------------
+
+let country = "Ukraine";
+const continent = "Europe";
+let population = 40;
+
+console.log(`Portugal's population is ${population > 33 ? "below" : "above"} average`);
+
+
+// -------------------------------------------------------------
+
+const language = "ukranian";
+let country = "Ukraine";
+const continent = "Europe";
+let population = 40;
+const isIsland = false;
+
+if (language === 'english' && population < 50 && isIsland === false) {
+    console.log(`You should live in ${country}`);
+}
+    else {
+    console.log(`${country} does not meet your criteria`);
+}
+// */

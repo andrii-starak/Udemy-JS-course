@@ -42,4 +42,36 @@ if (hasDLicense && hasGVision) {
 } else {
     console.log('Somebody else should drive...');    
 }
-*/
+
+let day = "thursday";
+
+switch (day) {
+    case 'monday':
+        console.log('Plan course sructure');
+        console.log('Go to coding meetup');
+        break;
+     case 'tuesday':
+        console.log('tuesday');
+        console.log('tuesday');
+        break;
+}
+ 
+if (day === "monday") {
+        console.log('Plan course sructure');
+}
+else if (day === "tuesday") {
+        console.log('tuesday');
+}
+    else if (day === 'wednesday' || 'thursday') {
+        console.log('thursday');
+    }
+
+// -------------------------------------------------
+const age = 23;
+age >= 18 ? console.log('drink wine') : console.log('drink water');
+
+const drink = age >= 18 ? 'wine' : 'water';
+console.log(drink);
+console.log(`I like to drink ${age>=18 ? 'wine' : 'water'}`);
+
+// */
